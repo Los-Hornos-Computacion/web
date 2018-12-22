@@ -1442,7 +1442,7 @@ pre code {
     margin-left: 25%;
   }
   .offset-lg-4 {
-    align-content: center;
+    alignment-baseline: center;
   }
   .offset-lg-5 {
     margin-left: 41.666667%;
