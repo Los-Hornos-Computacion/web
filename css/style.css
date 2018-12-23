@@ -1295,16 +1295,16 @@ h2.footer-top-head-w3l {
     right: 1%;
     overflow: hidden;
     z-index: 999;
-    width: 64px;
-    height: 64px;
+    width: 48px;
+    height: 48px;
     border: none;
     text-indent: 100%;
     background: url("../images/move-up.png") no-repeat 0px 0px;
 }
 
 #toTopHover {
-    width: 64px;
-    height: 64px;
+    width: 48px;
+    height: 48px;
     display: block;
     overflow: hidden;
     float: right;
