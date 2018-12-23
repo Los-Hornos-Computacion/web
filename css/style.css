@@ -237,6 +237,13 @@ input[type="submit"] {
     top: -23px;
 }
 
+.logo_agile h1 a img:hover {
+	opacity: 1!important;
+    position: absolute;
+    left: -40%;
+    top: -23px;
+}
+
 .logo_agile {
     padding: 26px 0 21px;
 }
