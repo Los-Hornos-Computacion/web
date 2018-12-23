@@ -23,7 +23,7 @@ body a {
 }
 
 a {
-	opacity: .9;
+	opacity: .95;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
