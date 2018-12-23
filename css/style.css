@@ -3206,7 +3206,6 @@ div#testimonials h4.m-title {
 .irafacebook:hover {
 	color: #2293e3;
     background: #fff;
-	border: thin;
+	border: medium;
 	border-color: #2293e3;
-	border-radius: 1px;
 }
