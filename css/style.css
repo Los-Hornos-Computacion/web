@@ -2509,31 +2509,8 @@ div#testimonials h4.m-title {
     }
 }
 
-@media(max-width: 768px) {
-    .logo_agile {
-        padding: 20px 0 21px 30px;
-    }
-    .logo_agile h1 a {
-        font-size: 26px;
-    }
-    .logo_agile h1 a img {
-        left: -29%;
-        width: 37%;
-        top: -11px;
-    }
-    .carousel-caption h2,
-    .carousel-caption h3 {
-        font-size: 41px;
-    }
-    .carousel-item.item4,
-    .carousel-item.item3,
-    .carousel-item.item2,
-    .carousel-item.item1 {
-        min-height: 400px;
-    }
-}
 
-/*@media(max-width: 736px) {
+@media(max-width: 736px) {
     .logo_agile {
         padding: 10px 0 0;
     }
@@ -2561,7 +2538,7 @@ div#testimonials h4.m-title {
         margin-top: 1em;
     }
     .bg-right-nut {
-        /* margin-top: 6em; */ /*
+        /* margin-top: 6em; */
     }
     p.w3l-nut-middle {
         right: 26%;
@@ -2588,7 +2565,7 @@ div#testimonials h4.m-title {
     .test-tooltip:before {
         bottom: -7%;
     }
-    /* checkout */ /*
+    /* checkout */
     .value-minus,
     .value-plus {
         height: 20px;
@@ -2610,7 +2587,7 @@ div#testimonials h4.m-title {
     td.invert-image a img {
         width: 60%;
     }
-    /* //checkout */ /*
+    /* //checkout */
     h3.w3-head {
         font-size: 23px;
     }
@@ -2623,19 +2600,19 @@ div#testimonials h4.m-title {
     .number-paymk {
         margin-top: 2em;
     }
-	/* imagezoom (single page) */ /*
+	/* imagezoom (single page) */
        .imagezoom-cursor,
     .imagezoom-view {
         display: none;
         overflow: hidden;
     }
-	/* //imagezoom (single page) */ /*
+	/* //imagezoom (single page) */
 	/* cart */
 	#PPminicarts {
 		left: 37% !important;
 	}
-	/* //cart */ /*
-}*/
+	/* //cart */
+}
 
 @media(max-width: 667px) {
     .header-right ul li {
