@@ -23,6 +23,7 @@ body a {
 }
 
 a {
+	opacity: .9;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -32,7 +33,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    opacity: .8;
+    opacity: 1;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
