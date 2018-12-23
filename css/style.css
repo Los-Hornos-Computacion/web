@@ -228,6 +228,7 @@ input[type="submit"] {
 
 .logo_agile h1 a:hover {
     text-decoration: none;
+	opacity: 1;
 }
 
 .logo_agile h1 a img {
