@@ -2637,19 +2637,29 @@ div#testimonials h4.m-title {
 	/* //cart */
 }
 
-@media(max-width: 640px) {
-    h3.tittle-w3l {
-        font-size: 34px;
+@media(max-width: 667px) {
+    .header-right ul li {
+        font-size: 11px;
     }
-    h3.tittle-w3l span {
-        font-size: 40px;
+    .header-right ul li i {
+        font-size: 14px;
     }
-    h3.heading-tittle {
-        font-size: 28px;
+    .con-ic i {
+        font-size: 20px;
+        width: 70px;
+        height: 70px;
     }
-    .page-head_agile_info_w3l {
-        min-height: 150px;
+    .contact-grid1 h4 {
+        font-size: 22px;
     }
+    h3.w3-head {
+        font-size: 25px;
+    }
+	/* cart */
+	#PPminicarts {
+		left: 35% !important;
+	}
+	/* //cart */
 }
 
 @media(max-width: 600px) {
