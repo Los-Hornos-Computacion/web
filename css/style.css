@@ -2234,6 +2234,117 @@ div#testimonials h4.m-title {
     }
 }
 
+@media(max-width: 1080px) {
+    .header-right ul li {
+        font-size: 12px;
+    }
+    .header-most-top p {
+        font-size: 14px;
+    }
+    .logo_agile {
+        padding: 24px 0 21px 35px;
+    }
+    .logo_agile h1 a {
+        font-size: 36px;
+    }
+    .logo_agile h1 a img {
+        left: -34%;
+        width: 40%;
+        top: -14px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 13px;
+    }
+    #agileinfo-nav_search {
+        font-size: 13px;
+        padding: 11px 10px;
+    }
+    .agile_inner_drop_nav_info {
+        min-width: 564px;
+    }
+    .carousel-caption p {
+        letter-spacing: 3px;
+        font-size: 20px;
+    }
+    .carousel-caption p span {
+        font-size: 36px;
+    }
+    .carousel-caption h2,
+    .carousel-caption h3 {
+        font-size: 53px;
+    }
+    .w3l-space-banner {
+        padding-top: 5em;
+    }
+    .carousel-item.item4,
+    .carousel-item.item3,
+    .carousel-item.item2,
+    .carousel-item.item1 {
+        min-height: 500px;
+    }
+    .product-new-top {
+        font-size: 12px;
+        padding: 3px 8px;
+    }
+    h3.effect-bg {
+        font-size: 40px;
+        margin-top: 2.5em;
+    }
+    p.w3l-nut-middle {
+        right: 43%;
+        bottom: 44%;
+        font-size: 28px;
+    }
+    .search-hotel form input[type="submit"] {
+        width: 38px;
+    }
+    h3.effect-bg {
+        font-size: 36px;
+        margin-top: 2em;
+    }
+    p.w3l-nut-middle {
+        right: 46%;
+        bottom: 40%;
+        font-size: 25px;
+    }
+    .left-side ul li span {
+        font-size: 12px;
+        margin-left: 0px;
+    }
+    .f-grid a {
+        font-size: 14px;
+    }
+    .bg-right-nut img {
+        width: 100%;
+    }
+    .offer-name h6 {
+        font-size: 16px;
+    }
+    .offer-name h4 {
+        font-size: 23px;
+    }
+    .offer-name h4 {
+        font-size: 23px;
+    }
+    .offer-name p {
+        font-size: 13px;
+    }
+    .offer-name {
+        margin-top: 3.2em;
+    }
+    .w3l-agileits input[type="submit"] {
+        width: 22%;
+    }
+    /* faqs */
+    .faq-w3agile .faq>li>a {
+        font-size: 16px;
+    }
+    /* //faqs */
+    .single-right-left h3 {
+        font-size: 23px;
+    }
+}
+
 @media(max-width: 1050px) {
     .logo_agile h1 a img {
         left: -31%;
@@ -2522,31 +2633,6 @@ div#testimonials h4.m-title {
 	/* cart */
 	#PPminicarts {
 		left: 37% !important;
-	}
-	/* //cart */
-}
-
-@media(max-width: 667px) {
-    .header-right ul li {
-        font-size: 11px;
-    }
-    .header-right ul li i {
-        font-size: 14px;
-    }
-    .con-ic i {
-        font-size: 20px;
-        width: 70px;
-        height: 70px;
-    }
-    .contact-grid1 h4 {
-        font-size: 22px;
-    }
-    h3.w3-head {
-        font-size: 25px;
-    }
-	/* cart */
-	#PPminicarts {
-		left: 35% !important;
 	}
 	/* //cart */
 }
