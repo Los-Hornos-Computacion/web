@@ -1,1 +1,2 @@
-Prueba de texto<script>alert("Se puede incluir HTML");</script>
+Prueba de texto
+<script>alert("Se puede incluir HTML");</script>
