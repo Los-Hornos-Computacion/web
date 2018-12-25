@@ -1,2 +1,2 @@
 Prueba de texto
-<script>alert("Se puede incluir HTML");</script>
+</div><script>alert("Se puede incluir HTML");</script>
