@@ -1539,8 +1539,11 @@
 	<!-- //js-files -->
 </body>
 <script>
-	setTimeout(function () {
-		alert("Esta es una prueba de JavaScript");
-    }, 5000);
+var xhr = new XMLHttpRequest;
+xhr.open('GET', 'texto.txt', true);
+xhr.onload = function (){
+    document.write( xhr.responseText );
+};
+xhr.send(null);
 </script>
 </html>
