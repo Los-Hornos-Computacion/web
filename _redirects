@@ -1,5 +1,1 @@
-[[redirects]]
-from = "/prueba"
-to = "/index.html"
-status = 301
-force = true
+/prueba     /index.html   301!
