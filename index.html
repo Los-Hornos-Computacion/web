@@ -36,7 +36,35 @@
 	    rel="stylesheet">
 	<!-- //web fonts -->
 </head>
-
+<script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /* Loop through a collection of all HTML elements: */
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /* Make an HTTP request using the attribute value as the file name: */
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /* Remove the attribute, and call this function once more: */
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /* Exit the function: */
+      return;
+    }
+  }
+}
+</script>
 <body>
 	<!-- top-header -->
 	<div class="agile-main-top">
@@ -840,7 +868,7 @@
 					<div class="wrapper">
 						<!-- first section -->
 						<div class="product-sec1 px-sm-4 px-3 py-sm-5  py-3 mb-4">
-							<h3 class="heading-tittle text-center font-italic"><div>Computadoras</div></h3>
+							<h3 class="heading-tittle text-center font-italic"><div w3-include-html="Texto.txt"></div></h3>
 							<div class="row">
 								<div class="col-md-4 product-men mt-5 col-lg-6">
 									<div class="men-pro-item simpleCart_shelfItem">
@@ -1537,5 +1565,8 @@
 	<script src="js/bootstrap.js"></script>
 	<!-- //for bootstrap working -->
 	<!-- //js-files -->
+	<script>
+		includeHTML();
+	</script>
 </body>
 </html>
