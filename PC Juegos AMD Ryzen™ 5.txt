@@ -1,1 +1,9 @@
-$ 2060
+<font size="2">
+
+12 cuotas de 
+
+</font>
+<font color="#007600"> <font size="2">
+$</font><!--
+
+Precio -->2060
