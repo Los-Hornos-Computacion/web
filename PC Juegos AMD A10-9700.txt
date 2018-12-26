@@ -6,6 +6,6 @@
 <font color="#007600"> <font size="2">
 $</font>
 
-<!-- Precio -->
+<!-- Precio
 
-      1600
+   -->1600
