@@ -54,7 +54,6 @@ function includeHTML() {
           if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
           /* Remove the attribute, and call this function once more: */
           elmnt.removeAttribute("w3-include-html");
-		  elmnt.removeAttribute("div");
           includeHTML();
         }
       }
@@ -897,7 +896,12 @@ function includeHTML() {
 										<div class="item-info-product text-center border-top mt-4"
 											 >
 											<h4 class="pt-1">
-												<a href="https://www.facebook.com/LosHornosComputacion/posts/557416677993349" rel="noopener noreferrer" target="_blank">PC Juegos AMD A10-9700<br><font size="2">12 cuotas de</font> <font color="#007600"><div w3-include-html="PC Juegos AMD A10-9700.txt"></div></font></a>
+												<a href="https://www.facebook.com/LosHornosComputacion/posts/557416677993349" rel="noopener noreferrer" target="_blank">PC Juegos AMD A10-9700<br><font size="2">12 cuotas de</font> <font color="#007600"><!--<div w3-include-html="PC Juegos AMD A10-9700.txt"></div>--><script>var xhr = new XMLHttpRequest;
+xhr.open('GET', 'PC Juegos AMD A10-9700.txt', true);
+xhr.onload = function (){
+    document.write( xhr.responseText );
+};
+xhr.send(null);</script></font></a>
 											</h4>
 											<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out"><br>
 														<a class="irafacebook" href="https://www.facebook.com/LosHornosComputacion/posts/557416677993349" rel="noopener noreferrer" target="_blank">Ir a Facebook</a>
