@@ -1,0 +1,53 @@
+<html>
+<head>
+<meta charset="utf-8">
+<style type="text/css">
+#bil{ font-size: 40px; background-color:#b11; color:white;}
+#sun { font-size: 40px; background-color:#562; color:blue;}
+</style>
+<script type="text/javascript">
+// http://www.webdeveloper.com/forum/showthread.php?261923-how-to-use-javascript-in-html-to-read-txt-file-and-display-it/page2
+
+// http://www.w3schools.com/ajax/ajax_xmlhttprequest_create.asp
+// http://www.w3schools.com/ajax/tryit.asp?filename=tryajax_first
+
+
+// localhost/yolla.htm
+// This code is working  on Firefox 37.02,  internet explorer 11, Opera 29.0,  Chrome 42....
+
+function yolla(dosya,ad) {
+var nesne ;
+if(navigator.appName.search('Microsoft')>-1) { nesne = new ActiveXObject('MSXML2.XMLHTTP'); } 
+else { nesne = new XMLHttpRequest(); }
+
+nesne.ad=ad;
+nesne.open('get', dosya, true); 
+nesne.onreadystatechange= cevap;
+nesne.send(null);
+}
+
+function cevap() {
+if(this.readyState==4) {
+var el = document.getElementById(this.ad);
+el.innerHTML = this.responseText;
+}
+}
+
+
+// not working  in internet explorer 11
+// window.onload = yolla('bilgi.txt','bil');   
+
+// window.onload =  yolla('arz.txt','sun') ;
+
+
+</script>
+</head>
+<body>
+<input type="button" value="bilgi.txt dosyadaki yaz&#305;y&#305; buraya al"  onclick="yolla('bilgi.txt','bil')">
+
+<input type="button" value="arz.txt dosyadaki yaz&#305;y&#305; buraya al"  onclick="yolla('arz.txt','sun')">
+<div id="bil"></div>
+
+<div id="sun"></div>
+</body>
+</html>
