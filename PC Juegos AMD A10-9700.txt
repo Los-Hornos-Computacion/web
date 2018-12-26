@@ -1,1 +1,1 @@
-<font size="2"> 12 cuotas de </font> <font color="#007600"> $1600
+<font size="2"> 12 cuotas de  <font color="#007600"> $</font>1600
