@@ -3211,8 +3211,8 @@ div#testimonials h4.m-title {
 }
 
 .imagen {
--webkit-transition: all 0.7s ease;
-transition: all 0.7s ease;
+-webkit-transition: all 0.4s ease;
+transition: all 0.4s ease;
 } 
 .imagen:hover {
 -webkit-filter: saturate(2);
