@@ -23,7 +23,7 @@ body a {
 }
 
 a {
-	opacity: .95;
+	opacity: /*.95*/1;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -3215,5 +3215,5 @@ div#testimonials h4.m-title {
 transition: all 0.7s ease;
 } 
 .imagen:hover {
--webkit-filter: saturate(4);
+-webkit-filter: saturate(2);
 }
