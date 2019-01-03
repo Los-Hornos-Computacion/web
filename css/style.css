@@ -3217,3 +3217,9 @@ transition: all 0.7s ease;
 .imagen:hover {
 -webkit-filter: saturate(4);
 }
+.imagen2 {
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+} 
+.imagen2:hover {
+-webkit-filter: contrast(160%);
