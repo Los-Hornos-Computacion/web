@@ -6,4 +6,4 @@
 <font color="#007600"> <font size="2">
 $</font><!--
 
-Precio -->9700
+Precio -->970
